@@ -1,0 +1,114 @@
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 5rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.text-input-wrapper{
+    background-color: white;
+    padding: 3px 5px;
+   
+    width: 60%;
+    display: flex;
+    border: solid 1px gray;
+    align-items: center;
+    position: relative;
+    small{
+        color: rgb(129, 35, 35);
+        display: inline-block;
+        width: max-content;
+    }
+    .input-icon{
+        color: rgb(67, 67, 116);
+       
+    }
+    input{
+        width: auto;
+        border: none;
+        outline: none;
+        background-color: white;
+        flex: 1;
+        &::placeholder{
+            color: gray;
+        }
+    }
+
+    .change-visibility{
+        position: absolute;
+        right: 0;
+    }
+}
+
+.auto-login{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: flex-end;
+    width: 60%;
+    gap: 5px;
+    p{
+        margin: 0;
+        font-size: large;
+    }
+    
+}
+
+
+button{
+    width: 60%;
+    border: 1px solid black;
+    padding: 5px 0;
+    transition: all .2s;
+    cursor: pointer;
+    &:hover{
+        filter: brightness(90%);
+    }
+}
+
+.correct-input{
+    color: darkgreen;
+    animation-name: validatorIn;
+    animation-duration: .2s;
+    
+}
+
+.wrong-input{
+    color: var(--bs-red);
+    animation-name: validatorIn;
+    animation-duration: .2s;
+}
+
+@keyframes validatorIn {
+    from { opacity: 0; filter: blur(1rem);}
+    to { opacity: 1; filter: blur(0);}
+}
+
+.change-visibility{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+@media (max-height: 470px){
+    .form-inputs{
+        gap: 2vh;
+    }
+}
+@media (max-width: 400px) {
+    .text-input-wrapper{
+        input{
+            max-width: 80%;
+        }
+    }
+}

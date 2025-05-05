@@ -1,0 +1,26 @@
+main{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.imagem-background{
+    position: relative;
+    height: 100dvh;
+    width: 100vw;
+    background: url("http://localhost:3500/img/ranger.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.welcome-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.seja-bem-vindo{
+    color: var(--bs-blue);
+    font-size: 1.2rem;
+}

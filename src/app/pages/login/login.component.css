@@ -1,0 +1,90 @@
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100dvh;
+}
+
+main section{
+    flex: 1;
+    height: auto;
+    max-width: 50vw;
+}
+
+.imagem-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.imagem-login img{
+    width: 70%;
+    transition: all 2s;
+}
+
+.imagem-login:hover{
+    opacity: 1;
+}
+
+.form-login{
+    background-color: white;
+    text-align: center;
+   
+}
+
+.welcome{
+    width: 60%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15rem;
+    
+    
+}
+
+.welcome img{
+    max-width: 60%;
+    
+    
+}
+
+
+.form-title{
+    color: darkblue;
+}
+
+@media (max-height: 720px) {
+    .welcome{
+        gap: 10vh;
+    }
+}
+
+@media (orientation: portrait){
+    main{
+        display: inline;
+    }
+    
+    .imagem-login{
+        width: 0;
+        max-width: 0 !important;
+        overflow: hidden;
+    }
+
+    .form-login{
+        width: 100vw;
+        min-width: 100vw;
+        height: 100dvh;
+        min-height: 100dvh;
+    }
+    .welcome img{
+        width: 100%;
+    }
+    }
+
+
+@media (min-width: 768px) { }
+@media (min-width: 1024px) { }
+@media (min-width: 1280px) { }
+@media (min-width: 1536px) { }
