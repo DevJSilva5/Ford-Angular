@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 main{
     display: flex;
     flex-direction: row;
@@ -26,28 +28,31 @@ main section{
 }
 
 .form-login{
-    background-color: white;
+    background-color: rgba(218, 216, 216, 0.27);
     text-align: center;
-   
+
+
+
 }
 
 .welcome{
+    font-family: space-mono;
     width: 60%;
-    padding-top: 2rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     gap: 12rem;
     justify-content: space-around;
     align-items: center;
-    padding-left: 15rem;
-    
-    
+    padding-left: 16rem;
+
+
 }
 
 .welcome img{
     max-width: 60%;
-    
-    
+
+
 }
 
 
@@ -65,7 +70,7 @@ main section{
     main{
         display: inline;
     }
-    
+
     .imagem-login{
         width: 0;
         max-width: 0 !important;

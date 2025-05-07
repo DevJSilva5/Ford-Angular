@@ -12,10 +12,10 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
-        h1{
-            color: var(--bs-blue);
-            font-size: 3rem;
-            font-weight: 700;
+        h2{
+            color: darkblue;
+
+            font-weight: 500;
         }
     }
     .info-cards{
@@ -24,24 +24,24 @@ main{
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-       
+
 
         .info{
             margin: auto 0;
-            height: 90%;
+            height: 70%;
             display: flex;
             align-items: center;
             flex-direction: row;
-            padding: 10px;
+            padding: 7px;
             .info-wrapper{
                 .data{
                     margin: 0;
                     padding: 0;
-                    color: var(--bs-blue);
-                    font-weight: 700;
+                    color: darkblue;
+                    font-weight: 600;
                 }
                 .ord{
-                    color: var(--bs-gray);
+                    color: darkblue;
                 }
             }
 
@@ -64,8 +64,8 @@ main{
         justify-content: center;
         table{
             vertical-align: middle;
-            width: 100%;
-            background-color: navy;
+            width: 80%;
+            background-color: darkblue;
             font-weight: 700;
             tr{
                 color: white;
@@ -75,7 +75,7 @@ main{
                 }
             }
             tr:nth-child(2){
-                background-color: aliceblue;
+                background-color: white;
                 color: black;
             }
         }
@@ -90,7 +90,7 @@ main{
     justify-content: center;
     form{
         width: max-content;
-        width: 70%;
+        width: 60%;
         select{
             margin: 0 auto;
             width: 100%;
@@ -107,7 +107,7 @@ main{
 .vin-form{
     display: flex;
     .vin-input{
-        width: 50%;
+        width: 40%;
         padding: 3px 5px;
         margin: 0 auto;
     }
