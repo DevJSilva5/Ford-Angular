@@ -35,7 +35,7 @@
 }
 
 #button-switch[type="checkbox"]:checked + .toggle-switch{
-    background-color: var(--bs-blue);
+    background-color: darkblue;
 }
 #button-switch[type="checkbox"]:checked + .toggle-switch .ball{
     left: 55%;

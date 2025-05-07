@@ -3,9 +3,9 @@ module.exports = {
            {
                id: 1,
                vehicle: "Ranger",
-               volumetotal: 145760,
-               connected: 70000,
-               softwareUpdates: 27550,
+               volumetotal: 22961,
+               connected: 15060,
+               softwareUpdates: 5200,
                img: "http://localhost:3500/img/ranger.png"
            },
            {
@@ -19,17 +19,17 @@ module.exports = {
            {
                id: 3,
                vehicle: "Territory",
-               volumetotal: 4560,
-               connected: 4000,
-               softwareUpdates: 3050,
+               volumetotal: 3680,
+               connected: 7630,
+               softwareUpdates: 2050,
                img: "http://localhost:3500/img/territory.png"
            },
            {
                id: 4,
                vehicle: "Bronco Sport",
-               volumetotal: 7560,
-               connected: 4060,
-               softwareUpdates: 2050,
+               volumetotal: 10862,
+               connected: 2555,
+               softwareUpdates: 1900,
                img: "http://localhost:3500/img/broncoSport.png"
            }
        ],
@@ -54,4 +54,3 @@ module.exports = {
            }
        }
    };
-   

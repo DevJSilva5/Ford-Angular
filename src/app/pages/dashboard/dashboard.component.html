@@ -7,11 +7,11 @@
 </ng-template>
 
 <main>
-    <app-usuario></app-usuario>
     <app-sidebar></app-sidebar>
+
     <div class="content">
         <div class="title">
-            <h1>Dashboard FORD</h1>
+            <h2>Dashboard FORD</h2>
         </div>
         <div class="info-cards">
             <app-card [ngStyle]="cardStyleDashboard" title="Veículo">
@@ -51,7 +51,7 @@
             </app-card>
         </div>
         <div class="car-image">
-            <img *ngIf="selectedVehicle" [src]="selectedVehicle.img" id="car-image">       
+            <img *ngIf="selectedVehicle" [src]="selectedVehicle.img" id="car-image">
         </div>
         <div class="car-info">
             <table>
