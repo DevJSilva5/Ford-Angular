@@ -14,13 +14,16 @@ export class SidebarComponent {
 
   sidebarToggle: boolean = false;
 
+
+
   changeSidebarToggle(){
     this.sidebarToggle = !this.sidebarToggle;
   }
 
+
   openSidebarStyle = {'width.px': 300};
   closedSidebarStyle = {'width.px': 0};
-  
+
   openSidebarShadowStyle = {'opacity': 1};
   closedSidebarShadowStyle = {'opacity': 0};
 

@@ -1,19 +1,17 @@
-.user-info-button{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    background-color: white;
+.usuario-info-button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 15px;
     cursor: pointer;
     transition: all .1s;
     svg{
         transition: all .2s;
+
     }
     &:hover{
         scale: 1.1;
@@ -28,24 +26,24 @@
 
 .usuario-content{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     width: 150px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     padding: 5px;
     position: fixed;
     right: 100px;
     transition: all .2s;
-    .user{
+    .usuario{
         text-align: center;
         h5{
             margin: 0;
         }
         .name{
-            color: var(--bs-blue);
+            color: darkblue;
         }
         .email{
             font-size: smaller;
-            color: var(--bs-gray);
+            color: lightgray;
             max-width: 100%;
             overflow-y: auto;
         }
@@ -62,7 +60,7 @@
         align-items: center;
         justify-content: center;
         .logout{
-            color: var(--bs-red);
+            color: darkred;
             font-weight: 600;
             padding: 5px;
             border-radius: 5px;
@@ -72,10 +70,10 @@
             align-items: center;
             justify-content: center;
             transition: all .1s;
-            box-shadow: 5px 5px 5px white;
+
             cursor: pointer;
             &:hover{
-                box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+                scale: 1.05;
             }
             p{
                 margin: 0;

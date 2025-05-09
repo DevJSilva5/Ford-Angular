@@ -13,7 +13,7 @@ import { AuthService } from '../../services/auth/auth.service';
 })
 
 export class LoginComponent {
-  
+
   private router;
   private AuthService;
   private autologin = false;
@@ -29,13 +29,13 @@ export class LoginComponent {
   }
 
   async login(event: [string, string]){
-    const user = await ApiService.login(event[0], event[1]);
-    
-    if (!user){
+    const usuario = await ApiService.login(event[0], event[1]);
+
+    if (!usuario){
       return
     }
-    
-    this.AuthService.saveLogin(user.data);
+
+    this.AuthService.saveLogin(usuario.data);
     this.router.navigate(['home'])
   }
 }

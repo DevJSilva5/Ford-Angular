@@ -1,7 +1,7 @@
 img{
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
+    usuario-select: none;
+    -moz-usuario-select: none;
+    -webkit-usuario-drag: none;
 }
 
 input{

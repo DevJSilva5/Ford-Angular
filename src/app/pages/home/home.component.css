@@ -5,15 +5,16 @@ main{
     overflow-y: auto;
 }
 
-.imagem-background{
-    position: relative;
-    height: 100dvh;
-    width: 100vw;
-    background: url("http://localhost:3500/img/mustang.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 75%;
+.imagem-background {
+  position: relative;
+  height: 100dvh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+  transition: background-image 1s linear;
 }
+
 
 
 .seja-bem-vindo-card{
