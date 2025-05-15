@@ -17,11 +17,19 @@
   </svg>
 </div>
 
-    <div *ngFor="let rota of pages" class="pages">
-        <a routerLink="{{rota.route}}">
-            <div class="path box">
-                {{ rota.name }}
-            </div>
-        </a>
-    </div>
+  <div *ngFor="let rota of pages" class="pages">
+    <a *ngIf="rota.external; else internalLink" [href]="rota.route" target="_blank" rel="noopener noreferrer">
+      <div class="path box">
+        {{ rota.name }}
+      </div>
+    </a>
+
+    <ng-template #internalLink>
+      <a [routerLink]="rota.route">
+        <div class="path box">
+          {{ rota.name }}
+        </div>
+      </a>
+    </ng-template>
+  </div>
 </section>
