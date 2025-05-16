@@ -6,7 +6,7 @@ export type sidebarPagesType = {
 
 export const sidebarPages: sidebarPagesType = [
   { name: 'Login', route: '/login' },
-  { name: 'Menu', route: '/menu' },
+  { name: 'Home', route: '/menu' },
   { name: 'Dashboard', route: '/dashboard' },
   { name: 'Website Ford', route: 'https://devjsilva5.github.io/WEBSITE-FORD-ENTER/', external: true }
 ];
