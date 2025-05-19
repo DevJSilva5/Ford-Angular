@@ -6,7 +6,7 @@ module.exports = {
                volumetotal: 22961,
                connected: 15060,
                softwareUpdates: 5200,
-               img: "http://localhost:3500/img/ranger.png"
+               img: "../../../../img/ranger.png"
            },
            {
                id: 2,
@@ -14,7 +14,7 @@ module.exports = {
                volumetotal: 1500,
                connected: 500,
                softwareUpdates: 750,
-               img: "http://localhost:3500/img/mustang.png"
+               img: "../../../../img/mustang.png"
            },
            {
                id: 3,
@@ -22,7 +22,7 @@ module.exports = {
                volumetotal: 3680,
                connected: 7630,
                softwareUpdates: 2050,
-               img: "http://localhost:3500/img/territory.png"
+               img: "../../../../img/territory.png"
            },
            {
                id: 4,
@@ -30,7 +30,7 @@ module.exports = {
                volumetotal: 10862,
                connected: 2555,
                softwareUpdates: 1900,
-               img: "http://localhost:3500/img/broncoSport.png"
+               img: "../../../../img/broncoSport.png"
            }
        ],
        details: {

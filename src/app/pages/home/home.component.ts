@@ -15,10 +15,10 @@ export class HomeComponent implements OnInit, OnDestroy {
   cardStyleHome = { 'width.px': '680', 'height.px': '480' };
 
   imagens = [
-    'http://localhost:3500/img/mustang.png',
-    'http://localhost:3500/img/ranger.png',
-    'http://localhost:3500/img/territory.png',
-    'http://localhost:3500/img/broncoSport.png'
+    '../../../../img/mustang.png',
+    '../../../../img/ranger.png',
+    '../../../../img/territory.png',
+    '../../../../img/broncoSport.png'
   ];
 
   imagemAtualIndex = 0;
